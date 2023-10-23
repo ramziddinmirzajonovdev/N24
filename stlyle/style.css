@@ -104,3 +104,21 @@ img {
 .button-primary:active{
     opacity: 0.6;
 }
+.global-search-form{
+    margin-bottom: 0;
+    margin-right: 25px;
+}
+.global-search-form-input{
+    font-size: 14px;
+    line-height: normal;
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    border-radius: 60px;
+    padding-left: 40px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+*:focus{
+    outline: 2px dashed #7295ec;
+}
