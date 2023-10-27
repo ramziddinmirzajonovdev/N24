@@ -93,6 +93,7 @@ img {
     padding: 13px 20px;
     cursor: pointer;
     line-height: normal;
+    border:none;
 }
 .button-primary{
     background-color:#7295ec;
@@ -169,6 +170,7 @@ img {
     display:flex;
     flex-wrap: wrap;
     margin-left: -10px;
+    margin-bottom: -10px;
 }
 .news-grid-item{
     width: 393px;
@@ -226,4 +228,27 @@ img {
     font-size: 12px;
     line-height: normal;
     color: #5e5f61;
+}
+.notification-cta{
+    margin:60px 75px;
+    background-color:#ffd7ba;
+    padding: 25px 70px 25px 25px;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.notification-cta-text{
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 26px;
+    color:#000;
+}
+.button-orange{
+    background-color:#F78B3B;
+    color:#fff;
+    display: inline-flex;
+    padding: 13px 30px;
+    align-items: flex-start;
+    gap: 10px;
 }
